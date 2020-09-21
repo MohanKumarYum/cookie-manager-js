@@ -76,4 +76,4 @@ CookieManager.clear();
 ```
 
 ## Author and License
-Created and maintained by [MohanKumarYum](https://github.com/MohanKumarYum) under [MIT](License.md) License
+Created and maintained by [MohanKumarYum](https://github.com/MohanKumarYum) under [MIT](LICENSE) License
