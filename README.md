@@ -67,10 +67,13 @@ CookieManager.remove(name);
 ### Listing All Cookies
 Return all of the existing cookies
 ```js
-CookieManager.getAll(name);
+CookieManager.getAll();
 ```
 ### Clearing All Cookies
 Clears all of the existing cookies
 ```js
-CookieManager.clear(name);
+CookieManager.clear();
 ```
+
+## Author and License
+Created and maintained by [MohanKumarYum](https://github.com/MohanKumarYum) under [MIT](License.md) License
