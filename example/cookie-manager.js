@@ -6,7 +6,7 @@
  * 21-Sep-2020 - version 1.0
  * https://github.com/MohanKumarYum/cookie-manager-js
  *
- * Copyright 2020 Mohan Kumar <mohankumaryum@gmail.com>
+ * Copyright 2020 Mohan Kumar
  * Released under MIT License
  * https://github.com/MohanKumarYum/cookie-manager-js/blob/master/LICENSE
  *
