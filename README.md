@@ -23,3 +23,54 @@ Download "cookie-manager.min.js" and include in your project.
 After including the "cookie-manager.min.js", you will be able to user "CookieManager" object.
 
 You can also load "CookieManager" object in AMD, CommonJS or Node Modules
+
+## Functionalities
+
+### Creating a Cookie
+Creating a new cookie
+```js
+CookieManager.set(name, value, expires, domain, path, secure);
+```
+- `name (String)` Cookie name
+- `value (String)` Cookie name
+- `expires (Optional) (Number)` Cookie expiration in days
+- `domain (Optional) (String)` Cookie Domain
+- `path (Optional) (String)` Cookie Path
+- `secure (Optional) (Boolean)` Cookie SSL support Flag
+
+### Retrieving a Cookie
+Getting a cookie with given cookie name
+```js
+CookieManager.get(name);
+```
+- `name (String)` Cookie name
+
+### Updating a Cookie
+Updating an existing cookie
+```js
+CookieManager.update(name, value, expires, domain, path, secure);
+```
+- `name (String)` Cookie name
+- `value (String)` Cookie name
+- `expires (Optional) (Number)` Cookie expiration in days
+- `domain (Optional) (String)` Cookie Domain
+- `path (Optional) (String)` Cookie Path
+- `secure (Optional) (Boolean)` Cookie SSL support Flag
+
+### Deleting a Cookie
+Deleting a given cookie name
+```js
+CookieManager.remove(name);
+```
+- `name (String)` Cookie name
+
+### Listing All Cookies
+Return all of the existing cookies
+```js
+CookieManager.getAll(name);
+```
+### Clearing All Cookies
+Clears all of the existing cookies
+```js
+CookieManager.clear(name);
+```
