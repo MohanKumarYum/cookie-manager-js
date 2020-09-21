@@ -65,7 +65,7 @@ CookieManager.remove(name);
 - `name (String)` Cookie name
 
 ### Listing All Cookies
-Return all of the existing cookies
+Returns all of the existing cookies as an array of objects with key value pairs
 ```js
 CookieManager.getAll();
 ```
